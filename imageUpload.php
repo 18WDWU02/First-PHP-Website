@@ -55,39 +55,9 @@ use Intervention\Image\ImageManager;
                 $constraint->upsize();
             });
             $thumbnailImage->save($thumbDestination."/".$newFileName, 100);
-
-
-
-
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
+    
     $page = "imageUpload";
     $desc = "This is the description of the Image Upload Page";
     require("templates/header.php");
